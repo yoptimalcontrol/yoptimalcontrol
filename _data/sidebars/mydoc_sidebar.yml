@@ -128,7 +128,6 @@ entries:
           url: /brysonAnimation
           output: web, pdf
 
-      subfolders:
       - title: Goddard rocket
         output: web, pdf
         subfolderitems:
