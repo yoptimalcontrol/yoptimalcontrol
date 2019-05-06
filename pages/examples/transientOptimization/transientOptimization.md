@@ -746,12 +746,12 @@ end
 ## Plots
 
 ### Simuation plots
-{% include image.html file="example_images/transientOptimization/transientSimControl" alt="transientControl" caption="Control" %}
+{% include image.html file="example_images/transientOptimization/transientSimControl.svg" alt="transientControl" caption="Control" %}
 
-{% include image.html file="example_images/transientOptimization/transientSimStates" alt="transientStates" caption="States" %}
+{% include image.html file="example_images/transientOptimization/transientSimStates.svg" alt="transientStates" caption="States" %}
 
 ### Optimal solution plots
 
-{% include image.html file="example_images/transientOptimization/transientControl" alt="transientControl" caption="Control" %}
+{% include image.html file="example_images/transientOptimization/transientControl.svg" alt="transientSimControl" caption="Control" %}
 
-{% include image.html file="example_images/transientOptimization/transientStates" alt="transientStates" caption="States" %}
+{% include image.html file="example_images/transientOptimization/transientStates.svg" alt="transientSimStates" caption="States" %}
