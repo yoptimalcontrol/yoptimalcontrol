@@ -167,3 +167,7 @@ entries:
     - title: Nondifferentiable system
       url: /nonDiff
       output: web, pdf
+
+    - title: Powertrain transient optimization
+      url: /transientOptimization
+      output: web, pdf
