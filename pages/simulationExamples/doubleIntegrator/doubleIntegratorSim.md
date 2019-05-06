@@ -8,6 +8,7 @@ folder: examples
 toc: false
 ---
 
+## Code
 
 ```matlab
 integrator2 = YopSystem('states', 2, 'controls', 1);
