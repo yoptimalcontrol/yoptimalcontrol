@@ -1,7 +1,7 @@
 ---
 title: "Solving optimal control problems"
 last_updated: May 5, 2019
-keywords: Getting stared, basics, YopSystem, YopSimulator, YopOcp
+keywords: Getting stared, basics, optimize, IPOPT, solve, plot, signal, build, parameterize
 sidebar: mydoc_sidebar
 permalink: solvingOcps
 toc: true

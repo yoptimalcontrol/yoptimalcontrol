@@ -1,109 +1,13 @@
 ---
-title: "Transient optimization of Diesel-electric Powertrain"
+title: "Code For Transient optimization of Diesel-electric Powertrain"
 last_updated: May 5, 2019
-keywords: example, Diesel, engine, transient, powertrain
+keywords: example, Diesel, engine, transient, powertrain, code
 sidebar: mydoc_sidebar
-permalink: transientOptimization
+permalink: transientOptimizationCode
 folder: examples
 toc: false
 ---
-The following example is taken from [*An Optimal Control Benchmark: Transient Optimization of A Diesel-Electric Powertrain*](http://www.fs.isy.liu.se/Publications/Articles/SIMS_14_MS_LE_2.pdf){:target="_blank"} by Martin Sivertsson and Lars Eriksson. The paper was published at SIMS 2014 - 55th International Conference on Simulation and Modelling. The software is available at the [Vehicular Systems website](http://www.fs.isy.liu.se/Software/LiU-D-El_and_Benchmark/){:target="_blank"}.
-
-## Problem explanation
-The problem consists of optimizing the transient response of a diesel-electric powertrain when an increase in the generator electrical power is required. The model is a four state, three control, mean value engine model (mvem) paired with an electrical generator (the combination of the internal combustion engine and electrical generator is referred to as genset) of a medium-duty electrified powertrain. The dynamics are nonlinear and the constraints, as included here, are time varying.
-
-For the reader not familiar with engine modeling and control, a mvem is a
-control-oriented model designed to study the fuel- and air-path of the engine
-[10]. The individual cylinders are not modeled, instead the mean value over a
-cycle is used, and thereof its name. By a Diesel-electric powertrain a configuration having both an internal combustion engine and electric motor/generator coupled in a series configuration, thus the combustiong engine is used as a power source.
-
-## Nomanclature
-The nomenclature is taken from the original paper,
-apart from a few changes, and is presented in the tables below.
-
-| Symbol | Description | Unit |
-|-------|--------|---------|
-| $$\dot{m}$$ | Mass flow | kg/s |
-| $$p$$ | Pressure | Pa |
-| $$t_f$$ | End time | s |
-| $$u_f$$ | Injected fuel  | mg/cycle  |
-| $$u_{wg}$$ | Wastegate position | -,[0,1] |
-| $$BSR$$ | Blade speed ratio  | -  |
-| $$E$$ | Energy | J |
-| $$F$$ | Force  | N |
-| $$J$$ | Inertia | kg$$\cdot$$m² |
-| $$M$$ | Torque | Nm |
-| $$P$$ | Power  | W |
-| $$T$$ | Temperature | K |
-| $$\lambda$$ | Air-fuel equivalence ratio | - |
-| $$\phi$$ | Fuel-air equivalence ratio | - |
-| $$\rho$$ | Density | kg/m³ |
-| $$\omega$$ | Rotational speed | rad/s |
-
-| Index | Description |
-|-------|-------------|
-| $$a$$ | Air |
-| $$c$$ | Compressor |
-| $$c,surge$$ | Compressor surge limit |
-| $$em$$ | Exhaust manifold |
-| $$f$$ | Fuel |
-| $$gen$$ | Generator electrical  |
-| $$genset$$ | Cumbustion engine and generator |
-| $$ice$$ | Internal cumbustion engine |
-| $$im$$ | Intake manifold |
-| $$max$$ | Maximum |
-| $$min$$ | Minimum |
-| $$mech$$ | Generator mechanical |
-| $$t$$ | Turbine |
-| $$tm$$ | Turbine mechanical |
-| $$tc$$ | Turbocharger |
-| $$wg$$ | Wastegate |
-
-## States and controls
-The four states $$x(t)$$ are engine speed $$\omega_{ice}(t)$$, intake manifold pressure (the pressure in the volume prior to the combustion chamber) $$p_{im}(t)$$, exhaust manifold pressure (pressure in the volume after the combustion chamber, before the turbocharger) $$p_{em}(t)$$, and the turbocharger speed $$\omega_t(t)$$:
-
-$$x(t) = [\omega_{ice}(t), \:p_{im}(t),\: p_{em}(t),\: \omega_{t}(t)]^T$$
-
-The three controls, $$u(t)$$, are injected amount of fuel per cycle $$u_f(t)$$, wastegate position $$u_{wg}(t)$$, and generator power $$P_{gen}(t)$$:
-
-$$u(t) = [u_f(t), \: u_{wg}(t), \: P_{gen}(t)]^T$$
-
-The differential equation describing the dynamics is:
-
-$$
-\dot{x}(t) = f(x(t),\: u(t)) =
-\begin{bmatrix}
-\frac{P_{ice}(t) - P_{mech}(t)}{J_{genset} \omega_{ice}(t)}  \\
-\frac{R_a T_{im}}{V_{im}}(\dot{m}_{c}(t) - \dot{m}_{ac}(t)) \\
-\frac{R_e T_{em}(t)}{V_{em}}(\dot{m}_{ac}(t) + \dot{m}_f(t) - \dot{m}_t(t) - \dot{m}_{wg}(t)) \\
-\frac{P_t(t) \eta_{tm}-P_c(t)}{J_{tc}\omega_{tc}(t)}
-\end{bmatrix}
-$$
-
-
-## Optimal control problem
-The optimal control problem is formulated either as minimum fuel or minimum time according to the following:
-
-$$
-\min_{u(t)} \: \int_{0}^{t_f} \dot{m}_f(t) dt \quad \textrm{or} \quad \min_{u(t)} \: t_f
-$$
-
-$$
-x(0) = x_0 \\
-\dot{x}(t) = f(x(t),\: u(t)) \\
-x_{min} \leq x(t) \leq x_{max} \\
-u_{min} \leq u(t) \leq u_{max} \\
-0 \leq P_{gen}(t)\leq 100 \textrm{kW} \\
-P_{ice}(x(t),\: u(t)) \leq P_{ice,max}(x(t),\: u(t)) \\
-\Pi_c \leq \Pi_{c,surge} \\
-BSR_{min} \leq BSR(x(t),\: u(t)) \leq BSR_{max} \\
-0 \leq \phi (x(t),\: u(t)) \leq 1/\lambda_{min} \\
-P_{gen}(t_f) = 100 \textrm{kW} \\
-E_{gen}(t_f) = 100 \textrm{kJ} \\
-\dot{x}(t_f) = 0
-$$
-
-## Code
+Code block for copying the code. See [Transient optimization of Diesel-electric Powertrain](transientOptimizationCode) for the problem description.
 ```matlab
 %% -------- Transient optimization of Diesel-electric Powertrain ----------
 %
@@ -700,6 +604,4 @@ param.u_max= [150; 1; 300000];
 param.u_min= [0; 0; 0];
 param.w_tc_corr_opt= 0.5106;
 end
-
-
 ```

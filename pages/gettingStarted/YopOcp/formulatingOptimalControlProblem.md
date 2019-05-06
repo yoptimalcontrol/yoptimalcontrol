@@ -1,7 +1,7 @@
 ---
 title: "Formulating optimal control problems"
 last_updated: May 4, 2019
-keywords: Getting stared, basics, YopOcp, problem formulation
+keywords: Getting stared, basics, YopOcp, problem formulation, scaling, scale, constraints, box, path, multi-phase
 sidebar: mydoc_sidebar
 permalink: formulatingOptimalControlProblems
 folder: gettingStarted

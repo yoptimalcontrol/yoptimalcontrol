@@ -1,7 +1,7 @@
 ---
 title: "Providing an initial guess"
 last_updated: May 3, 2019
-keywords: Getting stared, basics, YopOcp, initial guess
+keywords: Getting stared, basics, YopOcp, initial guess, simulation
 sidebar: mydoc_sidebar
 permalink: initialGuess
 toc: true

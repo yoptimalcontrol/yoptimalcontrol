@@ -171,3 +171,16 @@ entries:
     - title: Powertrain transient optimization
       url: /transientOptimization
       output: web, pdf
+
+      subfolders:
+      - title: Powertrain transient optimization
+        output: web, pdf
+        subfolderitems:
+
+        - title: Powertrain transient optimization
+          url: /transientOptimization
+          output: web, pdf
+
+        - title: Code block
+          url: /transientOptimizationCode
+          output: web, pdf
