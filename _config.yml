@@ -25,7 +25,7 @@ disqus_shortname:
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
 # TODO
-google_analytics:
+google_analytics: UA-139618196-1
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
