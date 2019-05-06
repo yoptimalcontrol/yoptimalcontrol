@@ -180,3 +180,15 @@ entries:
         - title: Code block
           url: /transientOptimizationCode
           output: web, pdf
+
+  - title: Simulation examples
+    output: web, pdf
+    folderitems:
+
+    - title: Double integrator
+      url: /doubleIntegratorSim
+      output: web, pdf
+
+    - title: Simulation of powertrain
+      url: /transientSimulation
+      output: web, pdf
