@@ -1,5 +1,5 @@
 ---
-title: "Bryson-Denham Pareto Optimal Solution"
+title: "Bryson-Denham Pareto Front"
 last_updated: May 6, 2019
 keywords: Bryson-Denham, Bryson, Denham, example, Pareto, optimal
 sidebar: mydoc_sidebar
@@ -7,7 +7,7 @@ permalink: brysonPareto
 folder: examples
 toc: false
 ---
-This example shows how to calculate a Pareto front for the Bryson-Denham problem. In this example the Pareto front is calculated by solving the Bryson-Denham problem for different final times and then plotting the resulting curve.
+In this example the Pareto front is calculated by solving the Bryson-Denham problem for different $$t_f \in [0.1 , 2]$$.
 
 ## Problem formulation
 The formulation is the following:
@@ -18,7 +18,7 @@ $$\dot{v}(t) = a(t) = u(t)$$
 
 $$\dot{x}(t) = v(t)$$
 
-$$ t_f = [0.1 , 2]$$
+$$ t_f \in [0.1 , 2]$$
 
 $$v(0)=-v(1)=1$$
 
@@ -121,7 +121,8 @@ end
 ```
 
 ### Plot
+Below is the Pareto front for objective to time, and for objective to distance.
 
-{% include image.html file="example_images/bryson/brysonParetoTime.svg" alt="BrysonParetoTime" caption="Bryson-Denham objective to time Pareto optimal solution" %}
+{% include image.html file="example_images/bryson/brysonParetoTime.svg" alt="BrysonParetoTime" caption="Bryson-Denham objective to time Pareto front" %}
 
-{% include image.html file="example_images/bryson/brysonParetoDistance.svg" alt="BrysonParetoDistance" caption="Bryson-Denham objective to distance Pareto optimal solution" %}
+{% include image.html file="example_images/bryson/brysonParetoDistance.svg" alt="BrysonParetoDistance" caption="Bryson-Denham objective to distance Pareto front" %}
