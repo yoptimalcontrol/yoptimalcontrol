@@ -3,7 +3,7 @@ title: "Double Integrator Simulation Example"
 last_updated: June 3, 2019
 keywords: example, double integrator, simulation
 sidebar: mydoc_sidebar
-permalink: doubleIntegrator
+permalink: doubleIntegratorSim
 folder: examples
 toc: false
 ---
