@@ -81,7 +81,7 @@ If the initial guess you wish to provide is a fixed value. The following syntax 
 ```matlab
 w0 = YopInitialGuess(...
     'parameters', p, ... % Parameters
-    'parametersValues', pValue, ... % Guess values
+    'parameterValues', pValue, ... % Guess values
     'signals', [mySystem.t; mySystem.x; mySystem.u], ... % Time-varying variables
     'signalValues', [tValue; xValue; uValue] ... % Guess values
     );
@@ -90,7 +90,7 @@ Every variable of the system subject to the optimal control problem must be acco
 ```matlab
 w0 = YopInitialGuess(...
     'parameters', mySystem.p, ... % Parameters
-    'parametersValues', p0, ... % Guess values
+    'parameterValues', p0, ... % Guess values
     'signals', [mySystem.t; mySystem.x; mySystem.u], ... % Time-varying variables
     'signalValues', [t0; x0; u0] ...
     );
