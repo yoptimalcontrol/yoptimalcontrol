@@ -188,7 +188,7 @@ res = simulator.simulate(...
 ```
 
 ### Plotting the initial guess
-Plotting states and control, see [symbolic plotting](solvingOcps#symbolic-plotting) for more information on plotting.
+Plotting states and control, see [symbolic plotting](solvingOcps#symbolic-plotting) for more information on plotting. [Click here to see the resulting plots](transientOptimization#simuation-plots)
 ```matlab
 %% Plot initial guess
 % States
@@ -301,7 +301,7 @@ sol = ocp.solve( ...
 ```
 
 ### Plotting the solution
-Plotting states and control, see [symbolic plotting](solvingOcps#symbolic-plotting) for more information on plotting.
+Plotting states and control, see [symbolic plotting](solvingOcps#symbolic-plotting) for more information on plotting. [Click here to see the resulting plots](transientOptimization#optimal-solution-plots)
 ```matlab
 %% Plot optimal control
 % States
@@ -742,3 +742,16 @@ param.u_min= [0; 0; 0];
 param.w_tc_corr_opt= 0.5106;
 end
 ```
+
+## Plots
+
+### Simuation plots
+{% include image.html file="example_images/transientOptimization/transientSimControl" alt="transientControl" caption="Control" %}
+
+{% include image.html file="example_images/transientOptimization/transientSimStates" alt="transientStates" caption="States" %}
+
+### Optimal solution plots
+
+{% include image.html file="example_images/transientOptimization/transientControl" alt="transientControl" caption="Control" %}
+
+{% include image.html file="example_images/transientOptimization/transientStates" alt="transientStates" caption="States" %}
