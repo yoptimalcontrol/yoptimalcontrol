@@ -111,7 +111,11 @@ ocp(1).scale('objective', 1e-4);
 ocp(2).scale('objective', 1e-4);
 
 % Solving the OCP
-sol = ocp.solve('controlIntervals', 100, 'polynomialDegree', 5);
+sol = ocp.solve(...
+    'controlIntervals', 100, ...
+    'polynomialDegree', 3, ...
+    'collocationPoints', 'radau' ...
+    );
 
 %% Plot the results
 figure(1)
@@ -182,7 +186,6 @@ y.drag.coefficient    = D;
 y.drag.force          = F_D;
 y.gravity             = g;
 end
-
 ```
 
 ## Plots
