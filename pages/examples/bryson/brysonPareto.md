@@ -7,7 +7,7 @@ permalink: brysonPareto
 folder: examples
 toc: false
 ---
-The Pareto optimal solution is found by iterating the Bryson-Denham problem for different final times.
+This example shows how to calculate a Pareto front for the Bryson-Denham problem. In this example the Pareto front is calculated by solving the Bryson-Denham problem for different final times and then plotting the resulting curve.
 
 ## Problem formulation
 The formulation is the following:
@@ -27,7 +27,7 @@ $$x(0)=x(1)=0$$
 where $$u$$ is the control signal.
 
 ## Yop implementation
-Getting the Pareto optimal solution is the perfect problem to show how re-parametrization can save time compared to just using `YopSolve` for many iterations of the same problem but with small changes. See [parametrization and optimization](solvingOcps#parametrization-and-optimization) for more information on parametrization. The following example times 5 iterations when using `YopSolve` and 20 iteration when using re-parametrization.
+Getting the Pareto front is the perfect problem to show how re-parametrization can save time compared to just using `YopSolve` for many iterations of the same problem but with small changes. See [parametrization and optimization](solvingOcps#parametrization-and-optimization) for more information on parametrization. The following example times 5 iterations when using `YopSolve` and 20 iteration when using re-parametrization.
 
 ```matlab
 %% Pareto optimal solution for Bryson-Denham
