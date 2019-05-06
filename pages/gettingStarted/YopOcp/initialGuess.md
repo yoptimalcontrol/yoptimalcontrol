@@ -51,7 +51,7 @@ By using `YopInitialGuess` you can provide an initial guess independent of how y
 ```matlab
 w0 = YopInitialGuess(...
     'parameters', mySystem.p, ... % Parameters
-    'parametersValues', p0, ... % Guess values
+    'parameterValues', p0, ... % Guess values
     'signals', [mySystem.t; mySystem.x; mySystem.u], ... % Time-varying variables
     'signalValues', [t0; x0; u0] ... % Guess values
     );
