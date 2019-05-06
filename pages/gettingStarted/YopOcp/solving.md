@@ -1,7 +1,7 @@
 ---
 title: "Solving optimal control problems"
 last_updated: May 5, 2019
-keywords: Getting stared, basics, optimize, IPOPT, solve, plot, signal, build, parameterize
+keywords: Getting stared, basics, optimize, IPOPT, solve, plot, signal, build, parameterize, symbolic
 sidebar: mydoc_sidebar
 permalink: solvingOcps
 toc: true

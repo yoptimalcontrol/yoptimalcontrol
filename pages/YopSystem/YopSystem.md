@@ -1,7 +1,7 @@
 ---
 title: "YopSystem"
 last_updated: April 25, 2019
-keywords: YopSystem, Getting stared, basics, declaration
+keywords: YopSystem, Getting stared, basics, declaration, symbolic, variables
 sidebar: mydoc_sidebar
 permalink: yopsystem
 folder: YopSystem/YopSystem
