@@ -111,9 +111,22 @@ entries:
       url: /examples
       output: web, pdf
 
-    - title: Bryson-Denham
-      url: /brysonDenham
-      output: web, pdf
+      subfolders:
+      - title: Bryson-Denham
+        output: web, pdf
+        subfolderitems:
+
+        - title: Bryson-Denham
+          url: /brysonDenham
+          output: web, pdf
+
+        - title: Bryson-Denham Pareto front
+          url: /brysonPareto
+          output: web, pdf
+
+        - title: Animation file
+          url: /brysonAnimation
+          output: web, pdf
 
       subfolders:
       - title: Goddard rocket
