@@ -7,7 +7,7 @@ permalink: brysonPareto
 folder: examples
 toc: false
 ---
-In this example the Pareto front is calculated by solving the (Bryson-Denham problem)[brysonDenham] without the distance constraint for different $$t_f \in [0.1 , 2]$$. 
+In this example the Pareto front is calculated by solving the [Bryson-Denham problem](brysonDenham) without the distance constraint for different $$t_f \in [0.1 , 2]$$. 
 
 ## Problem formulation
 The formulation is the following:
