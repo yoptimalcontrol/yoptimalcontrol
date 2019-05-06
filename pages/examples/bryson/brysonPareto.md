@@ -27,7 +27,7 @@ $$x(0)=x(1)=0$$
 where $$u$$ is the control signal.
 
 ## Yop implementation
-Getting the Pareto front is the perfect problem to show how re-parametrization can save time compared to just using `YopSolve` for many iterations of the same problem but with small changes. See [parametrization and optimization](solvingOcps#parametrization-and-optimization) for more information on parametrization. The following example times 5 iterations when using `YopSolve` and 20 iteration when using re-parametrization.
+Getting the Pareto front is the perfect problem to show how re-parametrization can save time compared to just using `YopSolve` for many iterations of the same problem but with small changes. See [parametrization and optimization](solvingOcps#parametrization-and-optimization) for more information on parametrization. The following example takes the time for 5 iterations when using `YopSolve` and 20 iteration when using re-parametrization to show the time difference of the two methods.
 
 ```matlab
 %% Pareto optimal solution for Bryson-Denham
