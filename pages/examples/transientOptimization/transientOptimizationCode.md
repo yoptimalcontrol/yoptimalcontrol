@@ -7,7 +7,7 @@ permalink: transientOptimizationCode
 folder: examples
 toc: false
 ---
-Code block for copying the code. See [Transient optimization of Diesel-electric Powertrain](transientOptimizationCode) for the problem description.
+Code block for copying the code. See [Transient optimization of Diesel-electric Powertrain](transientOptimization) for the problem description.
 ```matlab
 %% -------- Transient optimization of Diesel-electric Powertrain ----------
 %

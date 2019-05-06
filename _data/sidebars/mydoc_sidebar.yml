@@ -168,10 +168,6 @@ entries:
       url: /nonDiff
       output: web, pdf
 
-    - title: Powertrain transient optimization
-      url: /transientOptimization
-      output: web, pdf
-
       subfolders:
       - title: Powertrain transient optimization
         output: web, pdf
