@@ -11,7 +11,7 @@ Yop is a MATLAB Toolbox for numerical optimal control. It utilizes CasADi to int
 ### Getting started
 To get started with Yop you first need to install [Yop](install) and [CasADi](https://web.casadi.org/get/){:target="_blank"}.
 
-<a target="\_blank" class="noCrossRef" href="{{ "yopFiles/yoptimalcontrol-1.0-rc1.zip"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></a>
+<a target="\_blank" class="noCrossRef" href="{{ "yopFiles/yoptimalcontrol-1.0-rc2.zip"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></a>
 
 To get a more in-depth view of Yop you can visit the [getting started page](gettingStarted). Or you can try out any of the [examples](examples).
 

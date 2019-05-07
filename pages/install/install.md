@@ -20,4 +20,4 @@ To run Yop you are required to install CasADi. Just [**download** the latest ver
 ## Installation
 To install Yop, **download Yop**, **un-zip Yop**, **add folders and subfolders** to your MATLAB path. [Try out some of the examples](examples).
 
-<a target="\_blank" class="noCrossRef" href="{{ "yopFiles/yoptimalcontrol-1.0-rc1.zip"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></a>
+<a target="\_blank" class="noCrossRef" href="{{ "yopFiles/yoptimalcontrol-1.0-rc2.zip"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download Yop </button></a>
