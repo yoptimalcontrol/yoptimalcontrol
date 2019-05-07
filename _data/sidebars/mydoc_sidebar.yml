@@ -206,7 +206,7 @@ entries:
       output: web, pdf
 
     - title: Solution
-      url: /goddardInitialTemp
+      url: /goddardInitialGuessSolution
       output: web, pdf
 
     - title: Exercise 2, optimize fuel tank capacity
