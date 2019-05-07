@@ -7,7 +7,7 @@ permalink: brysonAnimation
 folder: examples
 toc: false
 ---
-Animation file for the Bryson-Denham problem. The animation function is called with the solution from the brysonDenham problem and a filename. E.g. `animateBryson(sol,'filename.gif')`.
+Animation file for the Bryson-Denham problem, the animation is saved as a gif. The animation function is called with the solution from the brysonDenham problem and a filename. E.g. `animateBryson(sol,'filename.gif')`.
 
 
 

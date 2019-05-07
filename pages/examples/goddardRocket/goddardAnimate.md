@@ -8,7 +8,7 @@ toc: false
 folder: examples
 ---
 
-Animation file for Goddard rocket problems. Input is the `ocp.solve()` object, filename for the gif, and total time the gif should take. E.g. `animateRocket(ocpSol, 'filename.gif', 6)`.
+Animation file for Goddard rocket problems, the animation is saved as a gif. Input is the `ocp.solve()` object, filename for the gif, and total time the gif should take. E.g. `animateRocket(ocpSol, 'filename.gif', 6)`.
 ```matlab
 % Author: Dennis Edblom
 function animateRocket(ocpSol, filename, time)
