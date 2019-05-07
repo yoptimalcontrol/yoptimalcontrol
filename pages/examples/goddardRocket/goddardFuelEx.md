@@ -15,6 +15,7 @@ Add a parameter that represents the fuel tank capacity and update the starting m
 
 `{ mf '==' t_0(rocket.mass-rocket.maxFuel) }`
 
+Another tip is to set the end height to be the same as the maximum height of the [Goddard rocket problem](goddardRocketFreeTf), which is  `{ 1.6141e+05  '==' t_f(rocket.height)   }` and then you can compare the plots and see if they are simular.
 
 ### Code to be modified
 ```matlab
