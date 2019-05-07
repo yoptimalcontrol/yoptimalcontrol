@@ -10,6 +10,7 @@ folder: examples
 Solution for the initial [Initial Guess For The Goddard Rocket](goddardInitialEx).
 
 ## Code
+Full code block for easy copying at the bottom of the page.
 
 ### Initial guess by simulation
 Simulating the rocket with full throttle until the fuel tank is empty as a initial guess.
