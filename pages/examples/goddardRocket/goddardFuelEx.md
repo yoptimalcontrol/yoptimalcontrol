@@ -13,6 +13,8 @@ Optimize the fuel tank size of the [Goddard rocket](goddardRocketFreeTf) to reac
 ### Tips
 Add a parameter that represents the fuel tank capacity and update the starting mass depending on the new parameter.
 
+`{ mf '==' t_0(rocket.mass-rocket.maxFuel) }`
+
 
 ### Code to be modified
 ```matlab
