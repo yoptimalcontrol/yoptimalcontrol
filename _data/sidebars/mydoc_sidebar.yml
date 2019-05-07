@@ -197,6 +197,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Workshop Slides
+      url: /workshopSlides
+      output: web, pdf
+
     - title: Exercise
       url: /goddardInitialEx
       output: web, pdf
