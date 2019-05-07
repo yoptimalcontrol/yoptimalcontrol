@@ -208,3 +208,7 @@ entries:
     - title: Solution
       url: /goddardInitialTemp
       output: web, pdf
+
+    - title: Exercise 2, optimize fuel tank capacity
+      url: /goddardFuelEx
+      output: web, pdf
