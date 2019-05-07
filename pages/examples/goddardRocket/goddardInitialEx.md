@@ -145,15 +145,15 @@ end
 ```
 
 ## Tip
-If te rocket has a very hgh velocity when you turn off the thrust, this will create a stiff system and may not be solvable. Change the tolerances of the simulator to handle this:
+If the rocket has a very hgh velocity when you turn off the thrust, this will create a stiff system and may not be solvable. Change the tolerances of the simulator to handle this:
 ```matlab
 %% Tip
-% If te rocket has a very hgh velocity when you turn off the thrust, this
+% If the rocket has a very hgh velocity when you turn off the thrust, this
 % will create a stiff system and may not be solvable. Change the tolerances
 % of the simulator to handle this:
 %
 res = simulator.simulate(...
-    'grid', linespace(0, 200, 2000), ...
+    'grid', linspace(0, 200, 2000), ...
     'abstol', 1e-3, ...
     'initialValue', v, v0 ...
     );
