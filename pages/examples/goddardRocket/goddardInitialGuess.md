@@ -1,51 +1,13 @@
 ---
-title: "Initial Guess For The Goddard Rocket"
+title: "Initial Guess For The Goddard Rocket Solution"
 last_updated: June 14, 2018
-keywords: example, goddard, rocket, initial, guess
+keywords:
 sidebar: mydoc_sidebar
-permalink: goddardInitialGuess
+permalink: goddardInitialGuessSolution
 toc: false
 folder: examples
 ---
-This is the same example as [Goddard Rocket Maximum Ascent, Final Time Free](goddardRocketFreeTf) but with an initial guess.
-
-## Problem formulation
-The problem formulation is the following:
-
-$$\max \: h(t_{f})$$
-
-$$\dot{v} = \frac{F \cdot c-D(h,v)}{m}-g(h)$$
-
-$$\dot{h} = v$$
-
-$$\dot{m} = - F$$
-
-$$D(h,v) = D_0 v^2 exp( -\beta h )$$
-
-$$g(h) = g_0\Big(\frac{r0}{r0+h} \Big)^2$$
-
-$$m(0) = 214.839$$
-
-$$m(t_f) = 67.9833$$
-
-$$v(0) = 0$$
-
-$$h(0) = 0$$
-
-$$g_0 = 9.81$$
-
-$$r_0 = 6.371e6$$
-
-$$0 \leq F \leq 9.525515$$
-
-$$D_0 = 0.01227$$
-
-$$c = 2060$$
-
-$$\beta = 0.145e-3$$
-
-The states are the rocket velocity $$v$$, the altitude from the ground $$h$$ and mass of the rocket $$m$$. The rocket burns fuel and expels it out the nozzle creating thrust, in the model the fuel flow rate $$F$$ is the control and the ratio between thrust and change in mass is $$T = F \cdot c$$.
-
+Solution for the initial [Initial Guess For The Goddard Rocket](goddardInitialEx).
 
 ## Code
 

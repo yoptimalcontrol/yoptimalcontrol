@@ -192,3 +192,15 @@ entries:
     - title: Simulation of powertrain
       url: /transientSimulation
       output: web, pdf
+
+  - title: Workshop
+    output: web, pdf
+    folderitems:
+
+    - title: Exercise
+      url: /goddardInitialEx
+      output: web, pdf
+
+    - title: Solution
+      url: /goddardInitialTemp
+      output: web, pdf
