@@ -7,7 +7,7 @@ permalink: brysonPareto
 folder: examples
 toc: false
 ---
-In this example the Pareto front is calculated by solving the [Bryson-Denham problem](brysonDenham) without the distance constraint for different $$t_f \in [0.1 , 2]$$. 
+In this example the Pareto front is calculated by solving the [Bryson-Denham problem](brysonDenham) without the distance constraint for different $$t_f \in [0.1 , 2]$$.
 
 ## Problem formulation
 The formulation is the following:
@@ -90,17 +90,17 @@ for i = 1:length(pareto_time_points2)
     x(i) = max(sols(i).State(1,:));
 end
 
-%% Plot Pareto otimal solution by reparametrization
+%% Plot Pareto optimal solution by reparametrization
 figure(1)
 plot(pareto_time_points2,J)
-title('Pareto otimal solution')
+title('Pareto front')
 xlabel('Time')
 ylabel('Objective')
 
 
 figure(2)
 plot(x,J)
-title('Pareto otimal solution')
+title('Pareto front')
 xlabel('Distance')
 ylabel('Objective')
 
