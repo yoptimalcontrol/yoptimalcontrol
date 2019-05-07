@@ -335,4 +335,18 @@ y.drag.coefficient    = D;
 y.drag.force          = F_D;
 y.gravity             = g;
 end
+
+
+function y = fuelInjectionController(time, externalInput)
+
+fuelRateLimit = externalInput(1);
+fuelMassAvailable = externalInput(2);
+controlSignal = fuelRateLimit;
+
+% saturateControl
+y.control = if_else(fuelMassAvailable <= 0, 0, controlSignal);
+y.fuelRateLimit = fuelRateLimit;
+y.fuelMassAvailable = fuelMassAvailable;
+end
+
 ```
