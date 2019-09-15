@@ -1,7 +1,7 @@
 ---
 title: "Yop example overview"
 last_updated: June 14, 2018
-keywords: example, overview
+keywords: examples, overview
 sidebar: mydoc_sidebar
 permalink: examples
 toc: false

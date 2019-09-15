@@ -1,6 +1,6 @@
 ---
 title: "Citing Yop"
-keywords: sample homepage
+keywords: citing, citations
 sidebar: mydoc_sidebar
 permalink: citations
 toc: false

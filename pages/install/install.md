@@ -1,7 +1,7 @@
 ---
 title: "Installation guide"
 last_updated: May 5, 2019
-keywords: install, installation, guide
+keywords: install, installation, download
 sidebar: mydoc_sidebar
 permalink: install
 folder: install
