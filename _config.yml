@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: yoptimalcontrol/yoptimalcontrol
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -9,12 +9,10 @@ topnav_title: yoptimalcontrol.se
 site_title: Yop
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-# TODO
 company_name: Viktor Leek, Dennis Edblom, Div. of Vehicular Systems, Linköping University
 # this appears in the footer
 
-# TODO
-github_editme_path:
+github_editme_path: yoptimalcontrol/yoptimalcontrol/gh-pages
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -118,7 +116,11 @@ sidebars:
 description: "TODO: have a description"
 # the description is used in the feed.xml file
 
-# TODO what should be used
+
 # needed for sitemap.xml file only
-url: http://idratherbewriting.com
-baseurl: /documentation-theme-jekyll
+url: https://www.yoptimalcontrol.se/
+baseurl: /yoptimalcontrol
+
+# Jekyll plugins
+plugins:
+  - jekyll-seo-tag
