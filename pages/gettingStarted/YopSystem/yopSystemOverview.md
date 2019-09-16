@@ -1,7 +1,7 @@
 ---
 title: "YopSystem overview"
 last_updated: May 5, 2019
-keywords: Getting stared, basics, YopSystem, system, model
+keywords: YopSystem overview, declaration, connections, modeling limitations, Independent variables
 sidebar: mydoc_sidebar
 permalink: yopSystemOverview
 toc: false

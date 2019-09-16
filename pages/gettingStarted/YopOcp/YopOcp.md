@@ -1,7 +1,7 @@
 ---
 title: "Optimal control"
 last_updated: May 5, 2019
-keywords: Getting stared, basics, YopSystem, YopSimulator, YopOcp
+keywords: YopSystem, YopSimulator, YopOcp, optimal control problems, initial guess
 sidebar: mydoc_sidebar
 permalink: yopOcp
 toc: false

@@ -2,7 +2,7 @@
 title: "Citing Yop"
 keywords: sample homepage
 sidebar: mydoc_sidebar
-permalink: citations
+permalink: citations, citing yop
 toc: false
 ---
 If you used Yop in a published work please cite it!

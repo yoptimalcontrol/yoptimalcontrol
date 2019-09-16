@@ -1,7 +1,7 @@
 ---
 title: "Bryson-Denham Pareto Front"
 last_updated: May 6, 2019
-keywords: Bryson-Denham, Bryson, Denham, example, Pareto, optimal
+keywords: Bryson-Denham, Bryson, Denham, example, Pareto, front
 sidebar: mydoc_sidebar
 permalink: brysonPareto
 folder: examples

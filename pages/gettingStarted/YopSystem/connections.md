@@ -1,7 +1,7 @@
 ---
 title: "Connections"
 last_updated: May 4, 2019
-keywords: Getting stared, basics, YopSystem, system, model, connections, YopConnection
+keywords: YopSystem, connections, YopConnection
 sidebar: mydoc_sidebar
 permalink: connections
 toc: false

@@ -1,7 +1,7 @@
 ---
 title: "Simulation"
 last_updated: May 5, 2019
-keywords: Getting stared, basics, YopSimulator, Simulation
+keywords: YopSimulator, Simulation, supported systems, simulating, signal, symbolic, plot
 sidebar: mydoc_sidebar
 permalink: yopSimulator
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: "The independent variable"
 last_updated: May 4, 2019
-keywords: Getting stared, basics, YopSystem, system, independent
+keywords: YopSystem, system, independent, variable
 sidebar: mydoc_sidebar
 permalink: independent
 toc: false

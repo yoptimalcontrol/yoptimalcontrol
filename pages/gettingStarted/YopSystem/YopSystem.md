@@ -1,7 +1,7 @@
 ---
 title: "YopSystem"
 last_updated: May 4, 2019
-keywords: Getting stared, basics, YopSystem, system, model
+keywords: YopSystem, declaration, Supported systems, YopSystem variables, model
 sidebar: mydoc_sidebar
 permalink: yopSystem
 toc: false

@@ -1,7 +1,7 @@
 ---
 title: "Simulation"
 last_updated: May 5, 2019
-keywords: Getting stared, basics, YopSimulator, Simulation
+keywords: YopSimulator, Simulation, overview
 sidebar: mydoc_sidebar
 permalink: simulationOverview
 toc: false
