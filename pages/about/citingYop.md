@@ -1,8 +1,8 @@
 ---
 title: "Citing Yop"
-keywords: sample homepage
+keywords: citations, citing yop
 sidebar: mydoc_sidebar
-permalink: citations, citing yop
+permalink: citations
 toc: false
 ---
 If you used Yop in a published work please cite it!
