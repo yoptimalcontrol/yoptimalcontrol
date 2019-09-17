@@ -30,6 +30,10 @@ entries:
       url: /citations
       output: web, pdf
 
+    - title: Navigating yoptimalcontrol.se 
+      url: /keywords
+      output: web, pdf
+
   - title: Install
     output: web, pdf
     folderitems:
@@ -38,7 +42,7 @@ entries:
       url: /install
       output: web, pdf
 
-  - title: Getting stared
+  - title: Getting started
     output: web, pdf
     folderitems:
 
