@@ -5,7 +5,7 @@ keywords: example, goddard, rocket, fuel, tank
 sidebar: mydoc_sidebar
 permalink: goddardFuelEx
 toc: false
-folder: examples
+folder: examples/goddardRocket
 ---
 
 Optimize the fuel tank size of the [Goddard rocket](goddardRocketFreeTf) to reach desired height.

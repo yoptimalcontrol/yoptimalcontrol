@@ -5,7 +5,7 @@ keywords: YopOcp, initial guess, simulation, YopInitialGuess, fixed guess value
 sidebar: mydoc_sidebar
 permalink: initialGuess
 toc: true
-folder: gettingStarted
+folder: gettingStarted/YopOcp
 ---
 Much of the time an initial guess is required to solve an optimal control problem. An initial guess is a starting point for the optimization solver to start iterating from. A good start can make the problem converge in fewer iterations, while a poor one can make it crash in the first iteration.
 

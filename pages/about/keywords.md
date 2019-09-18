@@ -4,7 +4,7 @@ last_updated: June 3, 2019
 keywords: searching, tags, keywords
 sidebar: mydoc_sidebar
 permalink: keywords
-folder: examples
+folder: about
 toc: true
 ---
 

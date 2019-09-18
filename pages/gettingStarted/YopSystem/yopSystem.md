@@ -5,7 +5,7 @@ keywords: YopSystem, declaration, Supported systems, YopSystem variables, model
 sidebar: mydoc_sidebar
 permalink: yopSystem
 toc: false
-folder: gettingStarted
+folder: gettingStarted/YopSystem
 ---
 ## Supported systems
 A `YopSystem` is a symbolic representation of a model. It handles semi-expicit differential algebraic equations (DAEs) of differential index 1 on the form:

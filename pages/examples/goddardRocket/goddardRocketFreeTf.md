@@ -4,7 +4,7 @@ last_updated: June 2, 2019
 keywords: example, Goddard, rocket, spaceX, maximum, ascent, final, time, free, tf, NASA, space
 sidebar: mydoc_sidebar
 permalink: goddardRocketFreeTf
-folder: examples
+folder: examples/goddardRocket
 toc: false
 ---
 

@@ -4,7 +4,7 @@ last_updated: May 6, 2019
 keywords: Bryson-Denham, Bryson, Denham, animation, animate
 sidebar: mydoc_sidebar
 permalink: brysonAnimation
-folder: examples
+folder: examples/bryson
 toc: false
 ---
 Animation file for the Bryson-Denham problem, the animation is saved as a gif. The animation function is called with the solution from the brysonDenham problem and a filename. E.g. `animateBryson(sol,'filename.gif')`.

@@ -5,7 +5,7 @@ keywords: YopSystem overview, declaration, connections, modeling limitations, In
 sidebar: mydoc_sidebar
 permalink: yopSystemOverview
 toc: false
-folder: gettingStarted
+folder: gettingStarted/YopSystem
 ---
 In Yop models are represented using the class `YopSystem`. A typical system is an ordinary differential equation (ODE), but semi-explicit algebraic differential equations (DAEs) of differential index 1 are supported.
 

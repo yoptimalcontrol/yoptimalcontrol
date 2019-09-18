@@ -4,7 +4,7 @@ last_updated: June 14, 2018
 keywords: examples, Goddard, rocket, spaceX, NASA, maximum, ascent, space
 sidebar: mydoc_sidebar
 permalink: goddardRocket
-folder: examples
+folder: examples/goddardRocket
 toc: false
 ---
 

@@ -5,7 +5,7 @@ keywords:
 sidebar: mydoc_sidebar
 permalink: goddardInitialGuessSolution
 toc: false
-folder: examples
+folder: examples/goddardRocket
 ---
 Solution for the initial [Initial Guess For The Goddard Rocket](goddardInitialEx).
 

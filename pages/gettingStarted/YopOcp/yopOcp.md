@@ -5,7 +5,7 @@ keywords: YopSystem, YopSimulator, YopOcp, optimal control problems, initial gue
 sidebar: mydoc_sidebar
 permalink: yopOcp
 toc: false
-folder: gettingStarted
+folder: gettingStarted/YopOcp
 ---
 Optimal control problems are formulated using the `YopOcp` class. How to declare, formulate and solve optimal control problems are found under the different topics:
 

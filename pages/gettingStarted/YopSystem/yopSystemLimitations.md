@@ -5,7 +5,7 @@ keywords: Getting stared, basics, YopSystem, system, model, limitations
 sidebar: mydoc_sidebar
 permalink: yopSystemLimitations
 toc: false
-folder: gettingStarted
+folder: gettingStarted/YopSystem
 ---
 Yop uses CasADi for symbolic representation of model objects. This means the expressions making up a `YopSystem` can only contain expressions the can be formulated in CasADi's symbolic framework. For instance the if-statesments like:
 ```matlab

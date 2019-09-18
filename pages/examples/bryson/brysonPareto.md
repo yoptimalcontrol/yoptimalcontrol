@@ -4,7 +4,7 @@ last_updated: May 6, 2019
 keywords: Bryson-Denham, Bryson, Denham, example, Pareto, front
 sidebar: mydoc_sidebar
 permalink: brysonPareto
-folder: examples
+folder: examples/bryson
 toc: false
 ---
 In this example the Pareto front is calculated by solving the [Bryson-Denham problem](brysonDenham) without the distance constraint for different $$t_f \in [0.1 , 2]$$.

@@ -5,7 +5,7 @@ keywords: YopSimulator, Simulation, supported systems, simulating, signal, symbo
 sidebar: mydoc_sidebar
 permalink: yopSimulator
 toc: true
-folder: gettingStarted
+folder: gettingStarted/YopSimulator
 ---
 ## Supported systems
 Simulation in Yop is done through the `YopSimulator` class. It takes as input `YopSystem`s and `YopConnection`s and outputs a `YopSimulator` object. Yop simulates semi-explicit differential algebraic equations (DAEs) of differential index-1 using the IDAS integrator from [Sundials](https://computation.llnl.gov/projects/sundials/idas){:target="_blank"}. This means that it can simulate systems on the form:

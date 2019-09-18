@@ -4,7 +4,7 @@ last_updated: May 5, 2019
 keywords: example, Diesel, engine, transient, powertrain
 sidebar: mydoc_sidebar
 permalink: transientOptimization
-folder: examples
+folder: examples/transientOptimization
 ---
 The following example is taken from [*An Optimal Control Benchmark: Transient Optimization of A Diesel-Electric Powertrain*](http://www.fs.isy.liu.se/Publications/Articles/SIMS_14_MS_LE_2.pdf){:target="_blank"} by Martin Sivertsson and Lars Eriksson. The paper was published at SIMS 2014 - 55th International Conference on Simulation and Modelling. The software is available at the [Vehicular Systems website](http://www.fs.isy.liu.se/Software/LiU-D-El_and_Benchmark/){:target="_blank"}.
 

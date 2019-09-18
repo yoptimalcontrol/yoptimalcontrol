@@ -4,7 +4,7 @@ last_updated: June 3, 2019
 keywords: example, isoperimetric, constraint
 sidebar: mydoc_sidebar
 permalink: isoConstraint
-folder: examples
+folder: examples/isoConstraint
 toc: false
 ---
 

@@ -252,3 +252,6 @@ end
 {% include image.html file="example_images/bryson/brysonDenhamStates.svg" alt="BrysonDenhamControl" caption="Bryson-Denham States" %}
 
 {% include image.html file="example_images/bryson/brysonDenhamControl.svg" alt="BrysonDenhamControl" caption="Bryson-Denham Control" %}
+
+
+{% include links.html %}

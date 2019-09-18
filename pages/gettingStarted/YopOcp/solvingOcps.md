@@ -5,7 +5,7 @@ keywords: solving optimal control problems, solution, optimize, IPOPT, solve, pl
 sidebar: mydoc_sidebar
 permalink: solvingOcps
 toc: true
-folder: gettingStarted
+folder: gettingStarted/YopOcp
 ---
 To solve optimal control problems Yop uses the (local) direct collocation algorithm. Chapter 11 in Moritz Diehl's text [Numerical Optimal Control](https://www.fs.isy.liu.se/Edu/Courses/NumericalOptimalControl/Diehl_NumOptiCon.pdf){:target="_blank"} gives a good overview of the method.
 

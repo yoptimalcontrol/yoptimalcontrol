@@ -4,7 +4,7 @@ last_updated: May 4, 2019
 keywords: YopOcp, formulating optimal control problems, problem formulation, scaling, scale, constraints, box, path, multi-phase, objective function, timeIntegral, syntax, sol, solution
 sidebar: mydoc_sidebar
 permalink: formulatingOptimalControlProblems
-folder: gettingStarted
+folder: gettingStarted/YopOcp
 toc: true
 ---
 In Yop, optimal control problem are represented by the `YopOcp` class.

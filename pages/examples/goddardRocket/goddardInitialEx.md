@@ -5,7 +5,7 @@ keywords: example, goddard, rocket, initial, guess
 sidebar: mydoc_sidebar
 permalink: goddardInitialEx
 toc: false
-folder: examples
+folder: examples/goddardRocket
 ---
 Create an initial guess for the [Goddard Rocket Maximum Ascent, Final Time Free](goddardRocketFreeTf). The code to be modified for the goddard rocket is found [below](goddardInitialEx#code-to-be-modified).
 

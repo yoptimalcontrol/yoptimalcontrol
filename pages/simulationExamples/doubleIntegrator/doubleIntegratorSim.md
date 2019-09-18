@@ -4,7 +4,7 @@ last_updated: June 3, 2019
 keywords: example, double integrator, simulation
 sidebar: mydoc_sidebar
 permalink: doubleIntegratorSim
-folder: examples
+folder: simulationExamples/doubleIntegrator
 toc: false
 ---
 

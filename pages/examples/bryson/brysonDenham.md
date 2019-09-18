@@ -4,7 +4,7 @@ last_updated: April 29, 2019
 keywords: Bryson-Denham, Bryson, Denham, example, basics
 sidebar: mydoc_sidebar
 permalink: brysonDenham
-folder: examples
+folder: examples/bryson
 toc: false
 ---
 

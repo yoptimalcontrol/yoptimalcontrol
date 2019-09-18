@@ -4,7 +4,7 @@ last_updated: June 3, 2019
 keywords: example, nondifferentiable, if_else
 sidebar: mydoc_sidebar
 permalink: nonDiff
-folder: examples
+folder: examples/nonDiff
 toc: false
 ---
 

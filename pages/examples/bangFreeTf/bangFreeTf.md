@@ -4,7 +4,7 @@ last_updated: February 26, 2019
 keywords: example, Bang Bang, control, linear
 sidebar: mydoc_sidebar
 permalink: bangFreeTf
-folder: examples
+folder: examples/bangFreeTf
 toc: false
 ---
 

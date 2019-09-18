@@ -4,7 +4,7 @@ last_updated: May 5, 2019
 keywords: example, Diesel, engine, transient, powertrain, simulation
 sidebar: mydoc_sidebar
 permalink: transientSimulation
-folder: simulationExamples
+folder: simulationExamples/transientOptimization
 toc: false
 ---
 This example is the same as [Transient optimization of Diesel-electric Powertrain](transientOptimization) but only the simulation part.

@@ -5,7 +5,7 @@ keywords: YopSystem, connections, YopConnection
 sidebar: mydoc_sidebar
 permalink: connections
 toc: false
-folder: gettingStarted
+folder: gettingStarted/YopSystem
 ---
 It is possible to connect systems using the `YopConnection` command. The purpose of this is to simplify creating an initial guess for non-convex optimal control problems. By connecting your system to a controller, it is possible to create an initial guess by simulation, even for an unstable system. Despite being the main purpose, connecting the system to a controller is not the only use for connections.
 

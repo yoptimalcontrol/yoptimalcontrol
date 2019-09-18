@@ -5,6 +5,6 @@ keywords: example, goddard, rocket, initial, guess
 sidebar: mydoc_sidebar
 permalink: goddardInitialTemp
 toc: false
-folder: examples
+folder: examples/goddardRocket
 ---
 The solution is not available at the moment.

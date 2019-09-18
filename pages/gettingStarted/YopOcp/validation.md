@@ -5,5 +5,5 @@ keywords: Getting stared, basics, validation
 sidebar: mydoc_sidebar
 permalink: validation
 toc: true
-folder: gettingStarted
+folder: gettingStarted/YopOcp
 ---

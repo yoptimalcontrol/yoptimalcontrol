@@ -5,7 +5,7 @@ keywords: animation, goddard, rocket
 sidebar: mydoc_sidebar
 permalink: goddardAnimate
 toc: false
-folder: examples
+folder: examples/goddardRocket
 ---
 
 Animation file for Goddard rocket problems, the animation is saved as a gif. Input is the `ocp.solve()` object, filename for the gif, and total time the gif should take. E.g. `animateRocket(ocpSol, 'filename.gif', 6)`.

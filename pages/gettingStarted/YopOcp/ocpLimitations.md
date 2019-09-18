@@ -5,6 +5,6 @@ keywords: Getting stared, basics, limitations
 sidebar: mydoc_sidebar
 permalink: ocpLimitations
 toc: yes
-folder: gettingStarted
+folder: gettingStarted/YopOcp
 ---
 # Limitations

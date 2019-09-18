@@ -4,7 +4,7 @@ last_updated: June 3, 2019
 keywords: example, pendulum, sidestep
 sidebar: mydoc_sidebar
 permalink: pendulumSidestep
-folder: examples
+folder: examples/pendulum
 toc: false
 ---
 

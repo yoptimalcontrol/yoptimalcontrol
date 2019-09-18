@@ -5,7 +5,7 @@ keywords: YopSimulator, Simulation, overview
 sidebar: mydoc_sidebar
 permalink: simulationOverview
 toc: false
-folder: gettingStarted
+folder: gettingStarted/YopSimulator
 ---
 Simulation is done using the `YopSimulator` class. Documentation is found [here](yopSimulator)
 

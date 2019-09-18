@@ -3,6 +3,7 @@ title: "Citing Yop"
 keywords: citations, citing yop
 sidebar: mydoc_sidebar
 permalink: citations
+folder: about
 toc: false
 ---
 If you used Yop in a published work please cite it!

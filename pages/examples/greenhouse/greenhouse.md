@@ -4,7 +4,7 @@ last_updated: June 2, 2019
 keywords: example, Greenhouse, Growing, light, optimal, control, cultivation, willigenburg, external, input, interpolation
 sidebar: mydoc_sidebar
 permalink: greenhouse
-folder: examples
+folder: examples/greenhouse
 toc: false
 ---
 

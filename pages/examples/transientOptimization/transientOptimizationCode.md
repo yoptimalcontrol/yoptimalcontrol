@@ -4,7 +4,7 @@ last_updated: May 5, 2019
 keywords: example, Diesel, engine, transient, powertrain, code
 sidebar: mydoc_sidebar
 permalink: transientOptimizationCode
-folder: examples
+folder: examples/transientOptimization
 toc: false
 ---
 Code block for copying the code. See [Transient optimization of Diesel-electric Powertrain](transientOptimization) for the problem description.

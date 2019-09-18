@@ -5,7 +5,7 @@ keywords: example, goddard, rocket, fuel, tank
 sidebar: mydoc_sidebar
 permalink: goddardFuelExSolution
 toc: false
-folder: examples
+folder: examples/goddardRocket
 ---
 
 
