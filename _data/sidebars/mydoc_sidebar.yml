@@ -30,8 +30,20 @@ entries:
       url: /citations
       output: web, pdf
 
+  - title: Navigating Yop
+    output: web, pdf
+    folderitems:
+
     - title: Navigating yoptimalcontrol.se 
       url: /keywords
+      output: web, pdf
+
+    - title: Navigating the GitHub 
+      url: /github
+      output: web, pdf
+
+    - title: Navigating with subdomains 
+      url: /subdomains
       output: web, pdf
 
   - title: Install
