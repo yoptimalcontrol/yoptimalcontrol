@@ -208,27 +208,3 @@ entries:
     - title: Simulation of powertrain
       url: /transientSimulation
       output: web, pdf
-
-  - title: Workshop
-    output: web, pdf
-    folderitems:
-
-    - title: Workshop Slides
-      url: /workshopSlides
-      output: web, pdf
-
-    - title: Exercise
-      url: /goddardInitialEx
-      output: web, pdf
-
-    - title: Solution
-      url: /goddardInitialGuessSolution
-      output: web, pdf
-
-    - title: Exercise 2, optimize fuel tank capacity
-      url: /goddardFuelEx
-      output: web, pdf
-
-    - title: Exercise 2 solution
-      url: /goddardFuelExSolution
-      output: web, pdf
