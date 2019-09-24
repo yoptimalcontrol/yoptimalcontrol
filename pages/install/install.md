@@ -17,6 +17,8 @@ Yop is a MATLAB toolbox and therefore requires MATLAB. Yop is also build on [Cas
 ## Installing CasADi
 To run Yop you are required to install CasADi. Just [**download** the latest version of CasADi (3.4.5)](https://web.casadi.org/get/){:target="_blank"}. **Un-zip the files**, **Add folders and subfolders** to your MATLAB path, and **that's it**.
 
+<a target="_blank" class="noCrossRef" href="{{ "https://web.casadi.org/get/"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download CasADi </button></a>
+
 ## Installation
 To install Yop, **download Yop**, **un-zip Yop**, **add folders and subfolders** to your MATLAB path. [Try out some of the examples](examples). The following button opens the github releases page where you can download the latest version.
 
