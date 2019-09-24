@@ -13,7 +13,7 @@ You can navigate to the GitHub repository and other places with the help of subd
 | Subdomain | Target |
 |-----------|--------|
 | [www.yoptimalcontrol.se](https://www.yoptimalcontrol.se){:target="_blank"} | [https://www.yoptimalcontrol.se/](https://www.yoptimalcontrol.se/){:target="_blank"} |
-| [git.yoptimalcontrol.se](https://git.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol/yoptimalcontrol](https://github.com/yoptimalcontrol/yoptimalcontrol){:target="_blank"} |
-| [github.yoptimalcontrol.se](https://github.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol/yoptimalcontrol](https://github.com/yoptimalcontrol/yoptimalcontrol){:target="_blank"} |
-| [download.yoptimalcontrol.se](https://download.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol/yoptimalcontrol/releases](https://github.com/yoptimalcontrol/yoptimalcontrol/releases){:target="_blank"} |
-| [releases.yoptimalcontrol.se](https://releases.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol/yoptimalcontrol/releases](https://github.com/yoptimalcontrol/yoptimalcontrol/releases){:target="_blank"} |
+| [git.yoptimalcontrol.se](https://git.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol](https://github.com/yoptimalcontrol){:target="_blank"} |
+| [github.yoptimalcontrol.se](https://github.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol](https://github.com/yoptimalcontrol){:target="_blank"} |
+| [download.yoptimalcontrol.se](https://download.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol/yop/releases](https://github.com/yoptimalcontrol/yop/releases){:target="_blank"} |
+| [releases.yoptimalcontrol.se](https://releases.yoptimalcontrol.se){:target="_blank"} | [https://github.com/yoptimalcontrol/yop/releases](https://github.com/yoptimalcontrol/yop/releases){:target="_blank"} |
