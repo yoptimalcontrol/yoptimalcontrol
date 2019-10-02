@@ -7,42 +7,45 @@ permalink: gettingStarted
 folder: gettingStarted
 toc: false
 ---
-To get started with Yop you can either start from examples, you can visit the Yop [examples page](examples). You can also read more about Yop under the different categories.
+To get started with Yop you can either start from examples, you can visit the Yop examples page. You can also read more about Yop under the different categories.
 
-# Basics
-The basics of Yop can be understood from the three base classes `YopSystem`, `YopOcp`, and `YopSimulator`.
+#### Get started
+- [**Install**:](install) Installation guide.
+- [**Navigating Yop**:](navigation) Guide on how to navigate [yoptimalcontrol.se](https://www.yoptimalcontrol.se/) , [github.com/yoptimalcontrol](https://github.com/yoptimalcontrol) and more.
+- [**Tutorials**:](tutorials) Tutorials to get you started using Yop.
+- [**Examples**:](exampleOverview) List of available optimal control examples
+- [**Documentation**:](documentation) Documentation for Yop.
 
-The `YopSystem` class is used for representing systems, or models. This is necessary in order to formulate and solve optimal control problems (OCPs), and for setting up simulations. More information about `YopSystem` is found at the [`YopSystem`](yopSystemOverview) page.
+### Yop documentation
+Below follows link to the different documentation pages.
 
-The `YopOcp` class is used for formulating and solving optimal control problems. More information on this class is found at the [`YopOcp`](yopOcp) page.
+#### Links `YopSystem`
+- [Overview](yopSystemOverview)
 
-The `YopSimulator` class is used for simulations. The main purpose of this class is to be used as a way of finding an initial guess for non-convex optimal control problems. The class supports semi-explicit DAEs of differential index 1. The main idea of supporting DAEs of index one is the ability to connect ODEs consisting of a system and a controller via an algebraic constraint. More info is found at the [`YopSimulator`](yopSimulator) page.
+- [Declaring a YopSystem](yopSystem)
 
-## Links `YopSystem`
-[Overview](yopSystemOverview)
+- [Connecting systems](connections)
 
-[Declaring a YopSystem](yopSystem)
+- [YopSystem Limitations](yopSystemLimitations)
 
-[Connecting systems](connections)
+#### Links `YopOcp`
+- [Overview](yopOcp)
 
-[YopSystem Limitations](yopSystemLimitations)
+- [Formulating optimal control problems](formulatingOptimalControlProblems)
 
-## Links `YopOcp`
-[Overview](yopOcp)
+- [How to provide an initial guess](initialGuess)
 
-[Formulating optimal control problems](formulatingOptimalControlProblems)
+- [How to solve optimal control problems](solvingOcps)
 
-[How to provide an initial guess](initialGuess)
+#### Links `YopSimulator`
+- [Overview](simulationOverview)
 
-[How to solve optimal control problems](solvingOcps)
+- [Supported systems](yopSimulator#supported-systems)
 
-## Links `YopSimulator`
-[Overview](simulationOverview)
+- [Setting up a simulator](yopSimulator#declaring-a-yopsimulator)
 
-[Supported systems](yopSimulator#supported-systems)
+- [Running a simulation](yopSimulator#simulating)
 
-[Setting up a simulator](yopSimulator#declaring-a-yopsimulator)
+- [Symbolic plotting](yopSimulator#numerical-results-by-symbolic-plotting)
 
-[Running a simulation](yopSimulator#simulating)
 
-[Symbolic plotting](yopSimulator#numerical-results-by-symbolic-plotting)

@@ -34,6 +34,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Navigation overview
+      url: /navigation
+      output: web, pdf
+
     - title: Navigating yoptimalcontrol.se 
       url: /keywords
       output: web, pdf

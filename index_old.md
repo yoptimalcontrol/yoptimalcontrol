@@ -2,31 +2,18 @@
 title: "Yop - A MATLAB Toolbox for Numerical Optimal Control based on CasADi"
 keywords: sample homepage
 sidebar: mydoc_sidebar
-permalink: index.html
+permalink: index_old.html
 toc: false
 ---
 
-### What is Yop?
 Yop is a MATLAB Toolbox for numerical optimal control. It utilizes CasADi to interface to integrators and nonlinear optimization solvers, and thereof its name, Yop - Yet Another Optimal Control Problem Parser.
 
-### Goals
-Yop aims to be a higher level optimization tool and make optimization more user friendly. We want Yop to be the bridge between the user and the optimal solution.
-Yop aims to differ from all the other optimization toolboxes by being easier to use and therefore more user friendly for the beginner. 
+### Getting started
+To get started with Yop you first need to install [Yop](install) and [CasADi](https://web.casadi.org/get/){:target="_blank"}.
 
+<a target="_self" class="noCrossRef" href="{{ "install"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="false"></span> Download Yop </button></a>
 
-We aim to make optimization easy enough for it to be a aiding tool when validating models and creating control strategies instead of it being a separate part of the project.
-
-### [Getting started](gettingStarted)
-
-- [**Install**:](install) Installation guide.
-- [**Getting started**:](gettingStarted) Get started using the Yop toolbox.
-- [**Navigating Yop**:](navigation) Guide on how to navigate [yoptimalcontrol.se](https://www.yoptimalcontrol.se/) , [github.com/yoptimalcontrol](https://github.com/yoptimalcontrol) and more.
-- [**Tutorials**:](tutorials) Tutorials to get you started using Yop.
-- [**Examples**:](exampleOverview) List of available optimal control examples
-- [**Documentation**:](documentation) Documentation for Yop.
-
-
-
+To get a more in-depth view of Yop you can visit the [getting started page](gettingStarted). Or you can try out any of the [examples](examples).
 
 ### A Yop example - Goddard rocket problem
 The Goddard rocket problem is an optimal control problem where the goal is to maximize the altitude of a vertically launched rocket, using thrust as control.
