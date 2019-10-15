@@ -1,0 +1,81 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+
+topnav:
+- title: Topnav
+  items:
+    - title: About
+      url: /about
+    - title: Use Cases
+      url: /usecases
+    - title: Install
+      url: /install
+    - title: Docs
+      url: /docs
+    - title: GitHub
+      external_url: https://github.com/yoptimalcontrol
+
+# #Topnav dropdowns
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: Docs
+#       folderitems:
+#         - title: Getting started
+#           url: /gettingStarted
+#         - title: YopSystem
+#           url: /yopSystem
+#         - title: Optimal control
+#           url: /yopOcp
+#         - title: Simulation
+#           url: /yopSimulator
+
+
+
+# topnav:
+# - title: Topnav
+#   items:
+#     - title: About
+#       url: /about
+
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: Use Cases
+#       folderitems:
+#         - title: Getting started
+#           url: /gettingStarted
+#         - title: YopSystem
+#           url: /yopSystem
+#         - title: Optimal control
+#           url: /yopOcp
+#         - title: Simulation
+#           url: /yopSimulator
+
+# topnav:
+# - title: Topnav
+#   items:
+#     - title: Install
+#       url: /install
+
+# #Topnav dropdowns
+# topnav_dropdowns:
+# - title: Topnav dropdowns
+#   folders:
+#     - title: Docs
+#       folderitems:
+#         - title: Getting started
+#           url: /gettingStarted
+#         - title: YopSystem
+#           url: /yopSystem
+#         - title: Optimal control
+#           url: /yopOcp
+#         - title: Simulation
+#           url: /yopSimulator
+
+
+# topnav:
+# - title: Topnav
+#   items:
+#     - title: GitHub
+#       external_url: https://github.com/yoptimalcontrol

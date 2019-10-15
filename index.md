@@ -4,7 +4,21 @@ keywords: sample homepage
 sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
+layout: page_no_sidebar
+topnav: topnav_home
 ---
+![](images/yopplotscreenshot3.png)
+
+
+
+
+
+
+
+
+
+
+
 
 ### What is Yop?
 Yop is a MATLAB Toolbox for numerical optimal control. It utilizes CasADi to interface to integrators and nonlinear optimization solvers, and thereof its name, Yop - Yet Another Optimal Control Problem Parser.
@@ -15,6 +29,76 @@ Yop aims to differ from all the other optimization toolboxes by being easier to 
 
 
 We aim to make optimization easy enough for it to be a aiding tool when validating models and creating control strategies instead of it being a separate part of the project.
+
+<html>
+<div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Use Cases</h2>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Modelling</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-car fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Simulating</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-support fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Regulating</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <span class="fa-stack fa-5x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+                <div class="panel-body">
+                    <h4>Optimizing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </html>
+
+
 
 ### [Getting started](gettingStarted)
 
@@ -268,3 +352,22 @@ end
 
 
 {% include links.html %}
+
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSe2GbtHidvlk0M3383HR2JAR4zWkZzB6cW5rKq9tBTygEAOPA/formResponse" target="hidden_iframe">
+<!-- Set the value of the current URL into the form. -->
+<input type="hidden" name="entry.1235902710" id="current-url" value="index">
+<!-- The answer bit -->
+<p><label id="feedbackLabel" for="feedback">Was this page helpful?</label><br>
+<input type="radio" name="entry.1116545680" id="h1" value="Yes" required="">
+<label for="h1">Yes</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="entry.1116545680" id="h2" value="No">
+<label for="h2">No</label></p>
+
+<!-- Additional feedback -->
+
+<p><label id="feedbackLabel" for="feedback">Give additional feedback below.</label><br>
+<input type="text" name="entry.470412855" id="feedback"></p>
+<!-- Submit button -->
+<p><input class="button" type="submit" value="Submit"></p>
+</form>
