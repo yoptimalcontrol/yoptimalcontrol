@@ -371,3 +371,83 @@ end
 <!-- Submit button -->
 <p><input class="button" type="submit" value="Submit"></p>
 </form>
+
+
+
+### collapse feedback button 
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.feedback_content {
+  padding: 18px;
+  width: 100%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Collapsibles</h2>
+
+<p>A Collapsible:</p>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="feedback_content">
+  <p><form action="https://docs.google.com/forms/d/e/1FAIpQLSe2GbtHidvlk0M3383HR2JAR4zWkZzB6cW5rKq9tBTygEAOPA/formResponse" target="hidden_iframe">
+<!-- Set the value of the current URL into the form. -->
+<input type="hidden" name="entry.1235902710" id="current-url" value="index">
+<!-- The answer bit -->
+<p><label id="feedbackLabel" for="feedback">Was this page helpful?</label><br>
+<input type="radio" name="entry.1116545680" id="h1" value="Yes" required="">
+<label for="h1">Yes</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="radio" name="entry.1116545680" id="h2" value="No">
+<label for="h2">No</label></p>
+
+<!-- Additional feedback -->
+
+<p><label id="feedbackLabel" for="feedback">Give additional feedback below.</label><br>
+<input type="text" name="entry.470412855" id="feedback"></p>
+<!-- Submit button -->
+<p><input class="button" type="submit" value="Submit"></p>
+</form></p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
